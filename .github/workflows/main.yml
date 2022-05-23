@@ -5,6 +5,4 @@ jobs:
     name: Hello world action
     runs-on: self-hosted
     steps:
-      - run: >
-        echo "User ${{ github.event.inputs.username }} ran a workflow manually."
-        echo "Because ${{ github.event.inputs.reason }}."
+      - run: echo "Hello World"
